@@ -1,1 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sailor's Workplace</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f5f7fa; color: #333; line-height: 1.6;">
+    <!-- Navigation Bar -->
+    <nav style="background: linear-gradient(135deg, #1a3a5f 0%, #2a5a8c 100%); padding: 0.8rem 1.5rem; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); position: sticky; top: 0; z-index: 1000;">
+        <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
+            <a href="#" style="display: flex; align-items: center; text-decoration: none; color: #ffffff;">
+                <span style="font-size: 1.8rem; margin-right: 0.5rem; color: #d4af37;">⚓</span>
+                <span style="font-size: 1.5rem; font-weight: 700; letter-spacing: 1px;">Sailor's Workplace</span>
+            </a>
+            
+            <ul id="navMenu" style="display: flex; list-style: none; gap: 2rem; margin: 0; padding: 0;">
+                <li style="margin: 0;">
+                    <a href="#" style="color: #ffffff; text-decoration: none; font-weight: 500; font-size: 1.1rem; padding: 0.5rem 1rem; border-radius: 4px; transition: all 0.3s ease; position: relative;">Home</a>
+                </li>
+                <li style="margin: 0;">
+                    <a href="#" style="color: #ffffff; text-decoration: none; font-weight: 500; font-size: 1.1rem; padding: 0.5rem 1rem; border-radius: 4px; transition: all 0.3s ease; position: relative;">About Us</a>
+                </li>
+                <li style="margin: 0;">
+                    <a href="#" style="color: #ffffff; text-decoration: none; font-weight: 500; font-size: 1.1rem; padding: 0.5rem 1rem; border-radius: 4px; transition: all 0.3s ease; position: relative;">Contact</a>
+                </li>
+            </ul>
+            
+            <div id="hamburger" style="display: none; flex-direction: column; cursor: pointer; padding: 5px;">
+                <span style="width: 25px; height: 3px; background-color: #ffffff; margin: 3px 0; transition: 0.3s; border-radius: 2px;"></span>
+                <span style="width: 25px; height: 3px; background-color: #ffffff; margin: 3px 0; transition: 0.3s; border-radius: 2px;"></span>
+                <span style="width: 25px; height: 3px; background-color: #ffffff; margin: 3px 0; transition: 0.3s; border-radius: 2px;"></span>
+            </div>
+        </div>
+    </nav>
 
+    <!-- Hero Section -->
+    <section style="height: 80vh; background: linear-gradient(rgba(26, 58, 95, 0.7), rgba(26, 58, 95, 0.7)), url('https://images.unsplash.com/photo-1551524164-6ca5e3aa7fc7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; color: #ffffff; padding: 0 1.5rem;">
+        <h1 style="font-size: 3rem; margin-bottom: 1rem; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Welcome to Sailor's Workplace</h1>
+        <p style="font-size: 1.2rem; max-width: 600px; margin-bottom: 2rem;">Your premier destination for maritime professionals and services</p>
+        <a href="#" style="display: inline-block; background-color: #d4af37; color: #1a3a5f; padding: 0.8rem 1.8rem; border-radius: 30px; text-decoration: none; font-weight: 600; font-size: 1.1rem; transition: all 0.3s ease; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">Explore Our Services</a>
+    </section>
+
+    <!-- Content Section -->
+    <section style="max-width: 1200px; margin: 4rem auto; padding: 0 1.5rem;">
+        <h2 style="text-align: center; margin-bottom: 3rem; color: #1a3a5f; position: relative;">Our Services</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+            <div style="background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
+                <img src="https://images.unsplash.com/photo-1569163139394-de44cb2c8cb8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Maritime Services" style="height: 200px; width: 100%; object-fit: cover;">
+                <div style="padding: 1.5rem;">
+                    <h3 style="color: #1a3a5f; margin-bottom: 0.8rem;">Maritime Services</h3>
+                    <p style="color: #666;">Professional maritime services including vessel management, crew placement, and port operations.</p>
+                </div>
+            </div>
+            <div style="background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
+                <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Training Programs" style="height: 200px; width: 100%; object-fit: cover;">
+                <div style="padding: 1.5rem;">
+                    <h3 style="color: #1a3a5f; margin-bottom: 0.8rem;">Training Programs</h3>
+                    <p style="color: #666;">Comprehensive training programs for maritime professionals at all levels of experience.</p>
+                </div>
+            </div>
+            <div style="background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
+                <img src="https://images.unsplash.com/photo-1584395633496-9e51ae4cceb5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Career Opportunities" style="height: 200px; width: 100%; object-fit: cover;">
+                <div style="padding: 1.5rem;">
+                    <h3 style="color: #1a3a5f; margin-bottom: 0.8rem;">Career Opportunities</h3>
+                    <p style="color: #666;">Connecting talented maritime professionals with leading companies in the industry.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: #1a3a5f; color: #ffffff; text-align: center; padding: 2rem; margin-top: 4rem;">
+        <p>&copy; 2023 Sailor's Workplace. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('navMenu');
+
+        // Add responsive behavior
+        function checkScreenSize() {
+            if (window.innerWidth <= 768) {
+                hamburger.style.display = 'flex';
+                navMenu.style.position = 'fixed';
+                navMenu.style.left = '-100%';
+                navMenu.style.top = '70px';
+                navMenu.style.flexDirection = 'column';
+                navMenu.style.backgroundColor = '#1a3a5f';
+                navMenu.style.width = '100%';
+                navMenu.style.textAlign = 'center';
+                navMenu.style.transition = '0.3s';
+                navMenu.style.boxShadow = '0 10px 27px rgba(0, 0, 0, 0.05)';
+                navMenu.style.padding = '2rem 0';
+                navMenu.style.gap = '0';
+                
+                // Add margin to list items
+                const navItems = navMenu.getElementsByTagName('li');
+                for (let i = 0; i < navItems.length; i++) {
+                    navItems[i].style.margin = '1rem 0';
+                }
+            } else {
+                hamburger.style.display = 'none';
+                navMenu.style.position = 'static';
+                navMenu.style.flexDirection = 'row';
+                navMenu.style.backgroundColor = 'transparent';
+                navMenu.style.width = 'auto';
+                navMenu.style.padding = '0';
+                navMenu.style.boxShadow = 'none';
+                
+                // Reset list item styles
+                const navItems = navMenu.getElementsByTagName('li');
+                for (let i = 0; i < navItems.length; i++) {
+                    navItems[i].style.margin = '0';
+                }
+            }
+        }
+
+        // Check screen size on load and resize
+        window.addEventListener('load', checkScreenSize);
+        window.addEventListener('resize', checkScreenSize);
+
+        // Toggle mobile menu
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.style.left = navMenu.style.left === '0px' ? '-100%' : '0';
+            
+            // Hamburger animation
+            const spans = hamburger.getElementsByTagName('span');
+            if (navMenu.style.left === '0px') {
+                spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
+                spans[1].style.opacity = '0';
+                spans[2].style.transform = 'rotate(-45deg) translate(7px, -6px)';
+            } else {
+                spans[0].style.transform = 'none';
+                spans[1].style.opacity = '1';
+                spans[2].style.transform = 'none';
+            }
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+            if (window.innerWidth <= 768) {
+                navMenu.style.left = '-100%';
+                const spans = hamburger.getElementsByTagName('span');
+                spans[0].style.transform = 'none';
+                spans[1].style.opacity = '1';
+                spans[2].style.transform = 'none';
+            }
+        }));
+
+        // Add hover effects with JavaScript
+        document.querySelectorAll('a').forEach(link => {
+            link.addEventListener('mouseenter', function() {
+                if (this.parentElement.parentElement.id === 'navMenu') {
+                    this.style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
+                    this.style.color = '#d4af37';
+                } else if (this.style.backgroundColor === 'rgb(212, 175, 55)') {
+                    this.style.backgroundColor = '#e6c34d';
+                    this.style.transform = 'translateY(-3px)';
+                    this.style.boxShadow = '0 6px 12px rgba(0, 0, 0, 0.3)';
+                }
+            });
+            
+            link.addEventListener('mouseleave', function() {
+                if (this.parentElement.parentElement.id === 'navMenu') {
+                    this.style.backgroundColor = 'transparent';
+                    this.style.color = '#ffffff';
+                } else if (this.style.backgroundColor === 'rgb(230, 195, 77)') {
+                    this.style.backgroundColor = '#d4af37';
+                    this.style.transform = 'translateY(0)';
+                    this.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.2)';
+                }
+            });
+        });
+
+        // Add hover effects to cards
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-5px)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+            });
+        });
+    </script>
+</body>
+</html>
